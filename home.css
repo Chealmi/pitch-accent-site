@@ -22,8 +22,6 @@ body {
     width: auto;
 }   
 
-
-
 header {
     display: flex;
     align-items: center;
@@ -39,13 +37,11 @@ nav ul{
     display: flex;
 }
 
-
 nav a:hover {
     color: rgb(211, 212, 212);
     box-sizing: border-box;
     border-bottom: 5px solid #F19953;
 }
-
 
 #logo {
     flex: 1;  
