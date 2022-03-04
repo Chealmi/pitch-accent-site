@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    height: 1500;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}   
+
+header {
+    height: 60px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    background-color: #0457DC;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.header-right a:visited { 
+    text-decoration: none;
+    color: currentColor; 
+   }
+
+.header-right a:hover {
+    text-decoration: underline;
+    color: rgb(211, 212, 212);
+  }
+
+.container {
+    width: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.header-right {
+    float: right;
+    padding: 15px;
+}
+
+.header-left {
+    float: left;
+    margin: 25px;
+}
+
+.header-right li {
+    font: Arial;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    color: white;
+}
+
+.header-left a {
+    font: Arial;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #03254E;
+    background-color: #CDCDCD;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #F19953;
+    border-radius: 2em;
+    padding: 1em 2em;
+}
+
+.btn-wrapper {
+    padding: 2em;
+}
+
+.intro-wrapper {
+    display: flex;
+    background-color: #545677;
+    color: #03254E;
+    padding: 2em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 35%;
+
+}
+
+.intro-left img {
+    background-color: white;
+    border-radius: 2em;
+}
+
+.intro-right {
+    flex-basis: 55%;
+}
+
+.info-wrapper {
+    display: flex;
+    padding: 2em;
+    background-color: #CDCDCD;
+    justify-content: space-between;
+}
+
+.info-wrapper h1 {
+    flex: 1;
+    color: #03254E;
+    order: 2;
+    text-align: center;
+    flex-basis: 35%;
+}
+
+.info-wrapper p {
+    flex: 2;
+    order: 1;
+    flex-basis: 55%;
+}
+
+.action-wrapper {
+    display: flex;
+    padding: 2em;
+    background-color: #C4C4C4;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-wrapper h1 {
+    color: #03254E;
+}

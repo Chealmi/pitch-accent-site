@@ -1,0 +1,158 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ /* end of general CSS reseting*/
+
+:root {
+    --header-color: #011C27;
+    --purple: #545677;
+    --dark-blue: #03254E;
+    --orange: #F19953;
+    --white: #EDF7F6;
+    --gray: #C4C4C4;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    background-color: #03254E;
+    
+    padding: 0 2em;
+
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+
+nav a:hover {
+    color: rgb(211, 212, 212);
+    box-sizing: border-box;
+    border-bottom: 5px solid #F19953;
+}
+
+
+#logo {
+    flex: 1;  
+    color: #EDF7F6;
+    margin: 0;
+    padding-left: 1em;
+}
+
+#logo a {
+    transition: color 0.3s ease-out;
+
+}
+
+#logo a:hover {
+    color: #F19953;
+}
+
+nav li {    
+    color: #EDF7F6;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-btn {
+    display: flex;        
+    padding: 1em;
+    border-bottom: 5px solid #03254E;
+    border-top: 5px solid #03254E;
+
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.top-wrapper h1 {
+    font-size: 5em;
+    
+    color: var(--dark-blue);
+
+    text-align: center;
+}
+
+.top-wrapper h2 {
+    text-align: center;
+
+    color: var(--dark-blue);
+    background-color:var(--gray);
+
+    padding: .25em 0.5em;
+    border-radius: 0.5em;
+
+    font-size: 4em;
+    
+}
+
+.top-wrapper ol {
+    font-size: 3em;
+
+    color: var(--purple);
+
+    padding: .5em 1.5em;
+    border-radius: 1em;
+}
+
+.top-wrapper li:hover {
+    text-decoration: underline;
+
+    color: black;
+
+
+}
+.info-container {
+    width: 1500px;
+}
+
+.info-container h2 {
+    text-align: center;
+
+    color: var(--dark-blue);
+    background-color:var(--gray);
+
+    padding: .25em 0.5em;
+    border-radius: 0.5em;
+
+    font-size: 4em;
+    
+}
+
+.info-container p {
+    font-size: 2em;
+
+    padding: .25em 1em;
+    
+    border: 4.5px solid var(--purple);
+    border-radius: 1em;
+}
